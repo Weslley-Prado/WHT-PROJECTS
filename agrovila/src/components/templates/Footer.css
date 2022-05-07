@@ -1,0 +1,41 @@
+.footer {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #017401;
+    display:flex;
+  
+  }
+
+  .Principal{
+    margin: 0 auto;
+    padding-left: 90px;
+  }
+
+  .Principal img{
+    height: 150px;
+  }
+  
+  .paragrafoFooter {
+    color: white;
+    font-size: 12px;
+  
+  }
+  
+  .paragrafoFooter a{
+    color: white;
+  
+  }
+  
+  .footer a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+     
+  
+    
+  }
+  
