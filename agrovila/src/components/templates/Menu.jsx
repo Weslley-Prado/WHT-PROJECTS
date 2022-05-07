@@ -4,7 +4,7 @@ import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import logo from '../../img/logo.png';
 
 
-const Navbarmenu = () => {
+const Menu = () => {
 
     const [isMenu, setisMenu] = useState(false);
     const [isResponsiveclose, setResponsiveclose] = useState(false);
@@ -87,4 +87,4 @@ const Navbarmenu = () => {
     )
 }
 
-export default Navbarmenu
+export default Menu

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Online = () => {
+
+const Offline = () => {
     return (
         <div className="sec__one">
             <section class="u-clearfix u-section-2" id="sec-ccc2">
@@ -60,4 +61,4 @@ const Online = () => {
     )
 }
 
-export default Online
+export default Offline
