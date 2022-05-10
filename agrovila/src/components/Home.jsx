@@ -12,12 +12,11 @@ import "react-alice-carousel/lib/alice-carousel.css";
 const Home = () => {
         return (
                 <div className="sec__one">
-                      <h1></h1>
                       <AliceCarousel className="slide" autoPlay autoPlayInterval="3000">
-                                <img src={image1} className="sliderimg" />
-                                <img src={image2} className="sliderimg" />
-                                <img src={image3} className="sliderimg" />
-                                <img src={image4} className="sliderimg" />
+                                <img src={image1} className="sliderimg" alt="" />
+                                <img src={image2} className="sliderimg" alt=""/>
+                                <img src={image3} className="sliderimg" alt="" />
+                                <img src={image4} className="sliderimg" alt=""/>
                         </AliceCarousel>
                 </div>
         )
