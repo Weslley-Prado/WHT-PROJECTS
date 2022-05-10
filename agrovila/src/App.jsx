@@ -17,7 +17,7 @@ function App() {
         {/* Add Menu Component */}
         <Menu />
         <Routes />       
-        <Footer />
+
 
     </div>
     </BrowserRouter>

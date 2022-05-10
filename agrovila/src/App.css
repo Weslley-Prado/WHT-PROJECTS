@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
-  background-color: white;
-  margin: auto;
   padding: 0px;
   overflow-x: hidden;
-  background-repeat: repeat;
   font-family: 'Inter', sans-serif;
-  display: grid;
 }
 .container {
   width: 100%;
 	padding-right:15px;
 	padding-left:15px;
 	margin-right:auto;
-	margin-left:auto
 }
 img {
   max-width: 100%;
@@ -26,7 +21,6 @@ img {
     position: relative;
     width: 100%;
     display: flex;
-    padding: 60px 0;
 }
 .sec__one h1{
   text-align: center;
@@ -35,6 +29,7 @@ img {
   color: #07a8ff;
   font-family: 'Inter', sans-serif;
 }
+
 .navBar .logo img {
   float: left;
   max-height: 120px;
@@ -214,4 +209,3 @@ li {
   width: 100%;
   height: 100vh;
 }
-
