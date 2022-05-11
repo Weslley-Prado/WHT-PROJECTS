@@ -65,7 +65,7 @@ const Menu = () => {
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> Empresa </NavLink> </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Produtos/Serviços <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Produtos </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Online`}> Produtos </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}>  Serviços </NavLink> </li>
                         </ul>
                     </li>

@@ -4,7 +4,7 @@
     width: 100%;
     bottom: 0;
     left: 0;
-    background-color: #017401;
+    background-color: rgb(191, 196, 191);
     display:flex;
   
   }
@@ -15,7 +15,7 @@
   }
 
   .Principal img{
-    height: 150px;
+    height: 115px;
   }
   
   .paragrafoFooter {

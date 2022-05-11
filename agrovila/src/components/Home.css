@@ -1,9 +1,9 @@
 .sliderimg{
     width: 100%;
-    height: 550px;
+    height: 400px;
     padding: 0;
     object-fit: cover;
-    position: "absolute";
+    position: relative;
     z-index: 1;
 
   }
@@ -32,3 +32,4 @@
   text-align: center;
   bottom: 35px;
 }
+
