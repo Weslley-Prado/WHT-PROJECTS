@@ -39,7 +39,7 @@
 
   }
   .send {
-   background-color: #3213e0;
+   background-color: #0e7405;
    color: white;
    padding: 12px 20px;
    border: none;
@@ -51,7 +51,7 @@
 
   }
   input[type=submit]:hover {
-     background-color: #4583a0;
+     background-color: #13d401;
   }
 
  
@@ -65,4 +65,22 @@
        width: 100%;
        max-width: 250px;
   }
+}
+
+label{
+   margin-left: 5px;
+
+}
+
+input[type=checkbox]{
+   margin-left: 5px;
+
+}
+
+.active{
+   cursor: pointer;
+}
+
+.active:hover {
+   color: #13d401;
 }

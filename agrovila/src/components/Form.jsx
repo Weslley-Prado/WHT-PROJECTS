@@ -78,12 +78,12 @@ export default class Form extends Component {
                                 name="isGoing"
                                 type="checkbox"
                                 checked={this.state.isGoing}
-                                onChange={this.handleInputChange} /><label> E-mail </label>
+                                onChange={this.handleInputChange} /><label className="active"> E-mail </label>
                         <input
                                 name="isGoing"
                                 type="checkbox"
                                 checked={this.state.isGoing}
-                                onChange={this.handleInputChange} /><label> WhatsApp </label> <br/>
+                                onChange={this.handleInputChange} /><label className="active"> WhatsApp </label> <br/>
                         <input className="send" type="submit" onClick={e => this.handleFormSubmit(e)} value="Enviar" />
                         <div>
                             {this.state.mailSent &&
