@@ -12,10 +12,9 @@ function App() {
     <BrowserRouter>
 
     <div>
-
         {/* Add Menu Component */}
         <Menu />
-        < Home />
+        <Home />
        
 
     </div>

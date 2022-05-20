@@ -72,15 +72,16 @@ li {
   padding-top: 5px;
 }
 .header__middle__logo{
-  width: 20%;
+  width: 30%;
   display: inline-block;
   float: left;
   padding-top: 0px;
 }
 
 .header__middle__logo  img{
-  width: 150px;
+  width: 250px;
   height: 100px;
+  padding-bottom: 10px;
 }
 .header__middle__menus {
   width: 70%;

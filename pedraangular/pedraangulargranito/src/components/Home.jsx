@@ -7,7 +7,7 @@ import './Home.css'
 
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-//import Form from './Form';
+import Form from './Form';
 
 const Home = () => {
         return (
@@ -19,8 +19,8 @@ const Home = () => {
                                 <img src={image4} className="sliderimg" alt=""/>
                         </AliceCarousel>
                 </div>
-                {/* <h2 className="order">FAÇA SEU ORÇAMENTO</h2>
-                <Form /> */}
+                <h2 className="order">FAÇA SEU ORÇAMENTO</h2>
+                <Form />
                 </section>
         )
 }
