@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 import Menu from './components/templates/Menu';
-import Home from './components/Home';
+import Routes from './Routes';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
 
         {/* Add Menu Component */}
         <Menu />
-        < Home />
+        < Routes />
        
 
     </div>

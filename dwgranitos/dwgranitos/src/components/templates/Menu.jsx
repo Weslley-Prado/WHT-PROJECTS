@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import logo from '../../img/logo.png';
+import './Menu.css'
 
 
 
@@ -76,11 +77,14 @@ const Menu = () => {
                     </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Materiais <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Online`}> Produtos </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}>  Serviços </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Online`}> Mármore </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}>  Granito </NavLink> </li>
                         </ul>
                     </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contato </NavLink> </li>
+                    
+                    <li className="menu"  ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Portuguese </NavLink> </li>
+                    <li className="menu" ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> English </NavLink> </li>
 
                     </ul>
 

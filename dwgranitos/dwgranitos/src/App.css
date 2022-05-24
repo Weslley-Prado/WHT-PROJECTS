@@ -228,3 +228,17 @@ polyline{
   display: none;
 }
 
+
+.menu a{
+  color:rgb(179, 11, 11);
+  padding-right: 10px;
+  margin-left: 10px;
+  justify-content: end;
+  text-decoration: none;
+
+}
+
+.empresa img{
+  width: 500px;
+  height: 500px;
+}

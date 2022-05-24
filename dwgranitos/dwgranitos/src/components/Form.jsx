@@ -69,7 +69,8 @@ export default class Form extends Component {
                         <textarea id="subject" name="subject" placeholder="Escreva sua mensagem..."
                             onChange={e => this.setState({ message: e.target.value })}
                             value={this.state.message}></textarea>
-                        
+                         <input type="file" /><br/>
+
                         <label> Marque por onde prefere a resposta:
                             
                         </label><br/>
