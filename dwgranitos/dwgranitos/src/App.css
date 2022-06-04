@@ -242,3 +242,33 @@ polyline{
   width: 500px;
   height: 500px;
 }
+
+.Bomba{
+  width: 250px;
+  height: 250px;
+
+}
+
+.ListaPrincipal{
+  display: flex;
+}
+
+.Card{
+  padding: 10px;
+  margin: 0 auto;
+}
+@media (max-width:767px) {
+  .Bomba{
+    width: 250px;
+    height: 250px;
+  
+  }
+  
+  .ListaPrincipal{
+    display: block;
+  }
+  
+  .Card{
+    margin: 0 auto;
+  }
+}
