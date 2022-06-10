@@ -4,6 +4,7 @@ import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import logo from '../../img/logo.png';
 
 
+
 const Menu = () => {
 
     const [isMenu, setisMenu] = useState(false);
@@ -43,7 +44,7 @@ const Menu = () => {
                 {/* Add Logo  */}
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">
-                        <img src={logo} alt="logo" /> 
+                    <img src={logo} alt="logo" /> 
                     </NavLink>
                 </div>
 
