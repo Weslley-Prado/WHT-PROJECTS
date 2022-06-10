@@ -22,6 +22,14 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import Banner from "../img/banner1.jpg"
 import './Pia.css'
 
+import Bancada01 from '../../../img/imgdwgranitos/bancada01.png';
+import Bancada02 from '../../../img/imgdwgranitos/bancada02.png';
+import Bancada03 from '../../../img/imgdwgranitos/bancada03.png';
+import Bancada04 from '../../../img/imgdwgranitos/bancada04.png';
+import Bancada05 from '../../../img/imgdwgranitos/bancada05.png';
+import Bancada06 from '../../../img/imgdwgranitos/bancada06.png';
+
+
 
 
 
@@ -53,6 +61,76 @@ export default function Album() {
           </Typography>
         </Toolbar>
       </AppBar>
+
+      <main className="ListaPrincipal">
+        {/* Hero unit */}
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Bancada01} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Bancada02} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Bancada03} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Bancada04} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Bancada05} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Bancada06} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        </main>
      
 
 

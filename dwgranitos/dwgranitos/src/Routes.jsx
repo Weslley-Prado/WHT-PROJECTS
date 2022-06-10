@@ -7,6 +7,8 @@ import Pias from "./components/services/servicos/Pia";
 import Bancadas from "./components/services/servicos/Bancadas";
 import Pisos from "./components/services/servicos/Pisos";
 import Piscinas from "./components/services/servicos/Piscina";
+import Escadas from "./components/services/servicos/Escadas";
+
 
 
 
@@ -26,6 +28,8 @@ export default props => (
         <Route path= '/Bancadas' element={<Bancadas/>} />
         <Route path= '/Pisos' element={<Pisos/>} />
         <Route path= '/Piscinas' element={<Piscinas/>} />
+        <Route path= '/Escadas' element={<Escadas/>} />
+
 
 
 

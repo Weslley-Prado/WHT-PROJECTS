@@ -22,12 +22,12 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import Banner from "../img/banner1.jpg"
 import './Pia.css'
 
-import Piso01 from '../../../img/imgdwgranitos/piso01.png';
-import Piso02 from '../../../img/imgdwgranitos/piso02.png';
-import Piso03 from '../../../img/imgdwgranitos/piso03.png';
-import Piso04 from '../../../img/imgdwgranitos/piso04.png';
-import Piso05 from '../../../img/imgdwgranitos/piso05.png';
-import Piso06 from '../../../img/imgdwgranitos/piso06.png';
+import Escadas01 from '../../../img/imgdwgranitos/escada01.png';
+import Escadas02 from '../../../img/imgdwgranitos/escada02.png';
+import Escadas03 from '../../../img/imgdwgranitos/escada03.png';
+import Escadas04 from '../../../img/imgdwgranitos/escada04.png';
+import Escadas05 from '../../../img/imgdwgranitos/escada05.png';
+import Escadas06 from '../../../img/imgdwgranitos/escada06.png';
 
 
 
@@ -57,7 +57,7 @@ export default function Album() {
       <AppBar position="relative" className="linha" >
         <Toolbar >
           <Typography variant="h6" color="inherit" noWrap>
-           Pisos
+           Escadas
           </Typography>
         </Toolbar>
       </AppBar>
@@ -65,7 +65,7 @@ export default function Album() {
       <main className="ListaPrincipal">
         {/* Hero unit */}
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Piso01} />
+          <Card.Img className="Bomba" variant="top" src={Escadas01} />
           <Card.Body>
             {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>
@@ -76,7 +76,7 @@ export default function Album() {
           </Card.Body>
         </Card>
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Piso02} />
+          <Card.Img className="Bomba" variant="top" src={Escadas02} />
           <Card.Body>
             {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>
@@ -87,7 +87,7 @@ export default function Album() {
           </Card.Body>
         </Card>
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Piso03} />
+          <Card.Img className="Bomba" variant="top" src={Escadas03} />
           <Card.Body>
             {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>
@@ -98,7 +98,7 @@ export default function Album() {
           </Card.Body>
         </Card>
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Piso04} />
+          <Card.Img className="Bomba" variant="top" src={Escadas04} />
           <Card.Body>
             {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>
@@ -109,7 +109,7 @@ export default function Album() {
           </Card.Body>
         </Card>
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Piso05} />
+          <Card.Img className="Bomba" variant="top" src={Escadas05} />
           <Card.Body>
             {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>
@@ -120,7 +120,7 @@ export default function Album() {
           </Card.Body>
         </Card>
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Piso06} />
+          <Card.Img className="Bomba" variant="top" src={Escadas06} />
           <Card.Body>
             {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>

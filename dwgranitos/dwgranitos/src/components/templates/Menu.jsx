@@ -71,7 +71,7 @@ const Menu = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Bancadas`}>  Bancadas </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Pisos`}> Pisos </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Piscinas`}>  Piscinas </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Acabamentos`}> Acabamentos </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Escadas`}> Escadas </NavLink> </li>
                         </ul>
                     </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Materiais <FiChevronDown /> </Link>

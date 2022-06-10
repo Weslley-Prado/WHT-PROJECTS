@@ -23,6 +23,13 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './Pia.css'
 
 import Piscina01 from '../../../img/imgdwgranitos/piscina01.png';
+import Piscina02 from '../../../img/imgdwgranitos/piscina02.png';
+import Piscina03 from '../../../img/imgdwgranitos/piscina03.png';
+import Piscina04 from '../../../img/imgdwgranitos/piscina04.png';
+import Piscina05 from '../../../img/imgdwgranitos/piscina05.png';
+import Piscina06 from '../../../img/imgdwgranitos/piscina06.png';
+
+
 
 
 
@@ -50,7 +57,7 @@ export default function Album() {
       <AppBar position="relative" className="linha" >
         <Toolbar >
           <Typography variant="h6" color="inherit" noWrap>
-           Piscinas
+           Piscina
           </Typography>
         </Toolbar>
       </AppBar>
@@ -60,11 +67,66 @@ export default function Album() {
         <Card className="Card" style={{ width: '18rem' }}>
           <Card.Img className="Bomba" variant="top" src={Piscina01} />
           <Card.Body>
-            <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
             <Card.Text>
                  Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
 
-            </Card.Text>
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Piscina02} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Piscina03} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Piscina04} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Piscina05} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
+            {/*<Button variant="primary">Go somewhere</Button>*/}
+          </Card.Body>
+        </Card>
+        <Card className="Card" style={{ width: '18rem' }}>
+          <Card.Img className="Bomba" variant="top" src={Piscina06} />
+          <Card.Body>
+            {/* <Card.Title>Aquecedor Elétrico TermaMax 01 Nautilus Monofásico 220V</Card.Title>
+            <Card.Text>
+                 Ideal para piscinas residenciais ou comerciais de uso coletivo, é produzida com polietileno e proteção anti-UV, o que a torna resistente às ações climáticas das áreas externas.
+
+            </Card.Text> */}
             {/*<Button variant="primary">Go somewhere</Button>*/}
           </Card.Body>
         </Card>
