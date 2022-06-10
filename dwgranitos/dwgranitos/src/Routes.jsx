@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import About from "./components/About";
 // import Contact from "./components/Contact";
 import Home from "./components/Home";
+import HomeEnglish from "./components/HomeEnglish";
 import Pias from "./components/services/servicos/Pia";
 import Bancadas from "./components/services/servicos/Bancadas";
 import Pisos from "./components/services/servicos/Pisos";
@@ -23,6 +24,7 @@ export default props => (
 
     <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/HomeEnglish' element={<HomeEnglish />}/>
         <Route path= '/About' element={<About/>} />
         <Route path= '/Pias' element={<Pias/>} />
         <Route path= '/Bancadas' element={<Bancadas/>} />

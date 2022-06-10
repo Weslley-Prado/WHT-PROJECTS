@@ -64,26 +64,26 @@ const Menu = () => {
                     <li  className="menu-item" >
                         <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                     </li>
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> Empresa </NavLink> </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Serviços <FiChevronDown /> </Link>
+                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> Company </NavLink> </li>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Services <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Pias`}> Pias </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Bancadas`}>  Bancadas </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Pisos`}> Pisos </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Piscinas`}>  Piscinas </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Escadas`}> Escadas </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Sinks`}> Sinks </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Countertops`}>  Countertops </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Floors`}> Floors </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Pools`}>  Pools </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Stairs`}> Stairs </NavLink> </li>
                         </ul>
                     </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Materiais <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Stones <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Online`}> Mármore </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}>  Granito </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='header__middle__logo'  to={`/Online`}> Marble </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}>  Granite </NavLink> </li>
                         </ul>
                     </li>
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contato </NavLink> </li>
+                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
                     
                     <li className="menu"  ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Portuguese </NavLink> </li>
-                    <li className="menu" ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/HomeEnglish`}> English </NavLink> </li>
+                    <li className="menu" ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> English </NavLink> </li>
 
                     </ul>
 

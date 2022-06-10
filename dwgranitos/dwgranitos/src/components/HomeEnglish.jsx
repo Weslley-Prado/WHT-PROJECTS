@@ -10,13 +10,13 @@ import './Home.css'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Form from './Form';
-import Menu from './templates/Menu';
+import MenuEnglish from './templates/MenuEnglish';
 
 const Home = () => {
         return (
 
                 <section>
-                <Menu />
+                <MenuEnglish />
                 <div className="sec__one">                       
                       <AliceCarousel className="slide" autoPlay autoPlayInterval="3000">
                                 <img src={image1} className="sliderimg" alt=""/>
@@ -25,13 +25,13 @@ const Home = () => {
                                 <img src={image4} className="sliderimg" alt=""/>
                         </AliceCarousel>
                 </div>
-                <h2 className="order">FAÇA SEU ORÇAMENTO</h2>
+                <h2 className="order">MAKE YOUR BUDGET</h2>
                 <Form /> 
                 <div>
                     <h2 className="order">Por que escolher a DW Granitos?</h2>
                     <div>
-                            <p className="paragrafo lead">
-                            A DW está no mercado como compromisso de atender residências, comércios,
+                    <p className="paragrafo lead">
+                    A DW está no mercado como compromisso de atender residências, comércios,
 indústrias, prédios, condomínios, construtoras, decoradores, arquitetos e engenheiros,
 com produtose serviços da mais alta qualidade. </p>
                             
