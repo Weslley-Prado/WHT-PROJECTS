@@ -28,6 +28,7 @@ import Bancada03 from '../../../img/imgdwgranitos/bancada03.png';
 import Bancada04 from '../../../img/imgdwgranitos/bancada04.png';
 import Bancada05 from '../../../img/imgdwgranitos/bancada05.png';
 import Bancada06 from '../../../img/imgdwgranitos/bancada06.png';
+import Menu from '../../templates/Menu';
 
 
 
@@ -52,6 +53,8 @@ const theme = createTheme();
 
 export default function Album() {
   return (
+    <div>
+    <Menu /> 
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="relative" className="linha" >
@@ -130,11 +133,8 @@ export default function Album() {
             {/*<Button variant="primary">Go somewhere</Button>*/}
           </Card.Body>
         </Card>
-        </main>
-     
-
-
-
+        </main>  
     </ThemeProvider>
+    </div>
   );
 }

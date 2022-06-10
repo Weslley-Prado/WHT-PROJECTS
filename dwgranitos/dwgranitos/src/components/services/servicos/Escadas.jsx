@@ -28,6 +28,7 @@ import Escadas03 from '../../../img/imgdwgranitos/escada03.png';
 import Escadas04 from '../../../img/imgdwgranitos/escada04.png';
 import Escadas05 from '../../../img/imgdwgranitos/escada05.png';
 import Escadas06 from '../../../img/imgdwgranitos/escada06.png';
+import Menu from '../../templates/Menu';
 
 
 
@@ -52,6 +53,8 @@ const theme = createTheme();
 
 export default function Album() {
   return (
+    <div>
+      <Menu />    
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="relative" className="linha" >
@@ -130,11 +133,8 @@ export default function Album() {
             {/*<Button variant="primary">Go somewhere</Button>*/}
           </Card.Body>
         </Card>
-        </main>
-     
-
-
-
+        </main> 
     </ThemeProvider>
+    </div>
   );
 }

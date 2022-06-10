@@ -28,6 +28,7 @@ import Piso03 from '../../../img/imgdwgranitos/piso03.png';
 import Piso04 from '../../../img/imgdwgranitos/piso04.png';
 import Piso05 from '../../../img/imgdwgranitos/piso05.png';
 import Piso06 from '../../../img/imgdwgranitos/piso06.png';
+import Menu from '../../templates/Menu';
 
 
 
@@ -52,7 +53,12 @@ const theme = createTheme();
 
 export default function Album() {
   return (
+    <div>
+    <Menu />
+     
+
     <ThemeProvider theme={theme}>
+      
       <CssBaseline />
       <AppBar position="relative" className="linha" >
         <Toolbar >
@@ -130,11 +136,11 @@ export default function Album() {
             {/*<Button variant="primary">Go somewhere</Button>*/}
           </Card.Body>
         </Card>
-        </main>
-     
-
-
+        </main>     
+       
 
     </ThemeProvider>
+    </div>    
+
   );
 }

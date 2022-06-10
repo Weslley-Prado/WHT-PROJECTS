@@ -28,6 +28,7 @@ import Pia03 from '../../../img/imgdwgranitos/pia03.png';
 import Pia04 from '../../../img/imgdwgranitos/pia04.png';
 import Pia05 from '../../../img/imgdwgranitos/pia05.png';
 import Pia06 from '../../../img/imgdwgranitos/pia06.png';
+import Menu from '../../templates/Menu';
 
 
 
@@ -52,6 +53,8 @@ const theme = createTheme();
 
 export default function Album() {
   return (
+    <div>
+    <Menu />
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="relative" className="linha" >
@@ -131,10 +134,7 @@ export default function Album() {
           </Card.Body>
         </Card>
         </main>
-     
-
-
-
     </ThemeProvider>
+    </div>
   );
 }

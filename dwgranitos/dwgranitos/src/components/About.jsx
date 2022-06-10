@@ -1,12 +1,14 @@
 import React from 'react'
 import './About.css'
 import Empresa from '../img/empresa.jpg'
+import Menu from './templates/Menu';
 
 
 const About = () => 
 
 
 <div id="about">
+<Menu />
             <div class="container">
                 <div class="row">
                     <div class="col-12">

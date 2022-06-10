@@ -82,7 +82,7 @@ const Menu = () => {
                     </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contato </NavLink> </li>
                     
-                    <li className="menu"  ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Portuguese </NavLink> </li>
+                    <li className="menu"  ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Portuguese </NavLink> </li>
                     <li className="menu" ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> English </NavLink> </li>
 
                     </ul>

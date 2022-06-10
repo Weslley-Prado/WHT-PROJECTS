@@ -10,10 +10,14 @@ import './Home.css'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Form from './Form';
+import Menu from './templates/Menu';
 
 const Home = () => {
         return (
+
                 <section>
+                                        <Menu />
+
                 <div className="sec__one">                       
                       <AliceCarousel className="slide" autoPlay autoPlayInterval="3000">
                                 <img src={image1} className="sliderimg" alt=""/>

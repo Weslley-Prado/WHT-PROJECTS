@@ -28,6 +28,7 @@ import Piscina03 from '../../../img/imgdwgranitos/piscina03.png';
 import Piscina04 from '../../../img/imgdwgranitos/piscina04.png';
 import Piscina05 from '../../../img/imgdwgranitos/piscina05.png';
 import Piscina06 from '../../../img/imgdwgranitos/piscina06.png';
+import Menu from '../../templates/Menu';
 
 
 
@@ -52,6 +53,8 @@ const theme = createTheme();
 
 export default function Album() {
   return (
+    <div>
+    <Menu />
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="relative" className="linha" >
@@ -130,11 +133,11 @@ export default function Album() {
             {/*<Button variant="primary">Go somewhere</Button>*/}
           </Card.Body>
         </Card>
-        </main>
-     
+        </main> 
 
 
 
     </ThemeProvider>
+    </div>
   );
 }
