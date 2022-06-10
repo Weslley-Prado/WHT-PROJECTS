@@ -27,16 +27,6 @@ const Home = () => {
                 </div>
                 <h2 className="order">FAÇA SEU ORÇAMENTO</h2>
                 <Form /> 
-                <div>
-                    <h2 className="order">Por que escolher a DW Granitos?</h2>
-                    <div>
-                            <p className="paragrafo lead">
-                            A DW está no mercado como compromisso de atender residências, comércios,
-indústrias, prédios, condomínios, construtoras, decoradores, arquitetos e engenheiros,
-com produtose serviços da mais alta qualidade. </p>
-                            
-                    </div>
-                </div>
                 </section>
         )
 }

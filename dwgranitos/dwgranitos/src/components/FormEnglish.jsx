@@ -43,10 +43,10 @@ export default class Form extends Component {
             <div className="Form">
                 <div>
                     <form action="/action_page.php">
-                        <input type="text" id="fname" name="firstname" placeholder="Nome..."
+                        <input type="text" id="fname" name="firstname" placeholder="First name..."
                             value={this.state.fname}
                             onChange={e => this.setState({ fname: e.target.value })} />
-                        <input type="text" id="lname" name="lastname" placeholder="Sobrenome..."
+                        <input type="text" id="lname" name="lastname" placeholder="Last name..."
                             value={this.state.lname}
                             onChange={e => this.setState({ lname: e.target.value })} />
 
@@ -55,24 +55,23 @@ export default class Form extends Component {
                             value={this.state.email}
                             onChange={e => this.setState({ email: e.target.value })} />
 
-                        <input type="text" id="phone" name="phone" placeholder="Telefone"
+                        <input type="text" id="phone" name="phone" placeholder="Phone"
                             value={this.state.phone}
                             onChange={e => this.setState({ phone: e.target.value })} />
 
-                        <input type="text" id="estado" name="estado" placeholder="Estado"
+                        <input type="text" id="estado" name="estado" placeholder="State"
                             value={this.state.estado}
                             onChange={e => this.setState({ estado: e.target.value })} />
-                        <input type="text" id="cidade" name="cidade" placeholder="Cidade"
+                        <input type="text" id="cidade" name="cidade" placeholder="City"
                             value={this.state.cidade}
                             onChange={e => this.setState({ cidade: e.target.value })} />
 
-                        <textarea id="subject" name="subject" placeholder="Escreva sua mensagem..."
+                        <textarea id="subject" name="subject" placeholder="Write your message..."
                             onChange={e => this.setState({ message: e.target.value })}
                             value={this.state.message}></textarea>
-                          <label for="fupload" class="control-label label-bordered">Clique aqui para escolher um arquivo</label>
+ <label for="fupload" class="control-label label-bordered">Choose a file</label>
      <input type="file" id="fupload" name="fupload" class="fupload form-control" /><br/>
-
-                        <label> Marque por onde prefere a resposta:
+                        <label> Mark where you prefer the answer:
                             
                         </label><br/>
 
@@ -86,7 +85,7 @@ export default class Form extends Component {
                                 type="checkbox"
                                 checked={this.state.isGoing}
                                 onChange={this.handleInputChange} /><label className="active"> WhatsApp </label> <br/>
-                        <input className="send" type="submit" onClick={e => this.handleFormSubmit(e)} value="Enviar" />
+                        <input className="send" type="submit" onClick={e => this.handleFormSubmit(e)} value="Send" />
                         <div>
                             {this.state.mailSent &&
                                 <div>Thank you for contcting us.</div>

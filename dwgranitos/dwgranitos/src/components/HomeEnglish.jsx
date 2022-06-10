@@ -9,7 +9,7 @@ import './Home.css'
 
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import Form from './Form';
+import FormEnglish from './FormEnglish.jsx';
 import MenuEnglish from './templates/MenuEnglish';
 
 const Home = () => {
@@ -26,17 +26,8 @@ const Home = () => {
                         </AliceCarousel>
                 </div>
                 <h2 className="order">MAKE YOUR BUDGET</h2>
-                <Form /> 
-                <div>
-                    <h2 className="order">Por que escolher a DW Granitos?</h2>
-                    <div>
-                    <p className="paragrafo lead">
-                    A DW está no mercado como compromisso de atender residências, comércios,
-indústrias, prédios, condomínios, construtoras, decoradores, arquitetos e engenheiros,
-com produtose serviços da mais alta qualidade. </p>
-                            
-                    </div>
-                </div>
+                <FormEnglish /> 
+               
                 </section>
         )
 }
