@@ -1,0 +1,87 @@
+main{
+  background-color: #F1F1F1;
+ height: 100%;
+
+}
+
+.containerMarketing{
+  padding: 35px 0;
+
+}
+
+.startMarketing{
+  margin: 0 auto;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.container-fluid {
+  padding-top: 10px;
+  margin-top: 15px;
+  height: 100%;
+  margin-bottom: 8px;
+  background-color: #F1F1F1;
+
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 100%;
+  padding-top: 0px;
+}
+ 
+#mainSlider .carousel-caption {
+  top: 40%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #00027c;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #00027c;
+}
+
+.carousel-indicators .active {
+  background-color: #00027c;
+}
+
+  
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.carousel-item img{
+ height: 675px;
+}
+
+
+

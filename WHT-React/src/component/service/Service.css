@@ -1,0 +1,128 @@
+.container {
+    padding: 0px 0;
+    background-color: #f9f9f9d8;
+
+  }
+
+.container-fluid {
+    padding: 0;
+    margin-top: 0px;
+    height: 100%;
+  }
+  
+   
+ 
+#services{
+  background-color: #F9F9F9;
+  margin-top:20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.main-title {
+  color: #444;
+  margin-top: 70px;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+
+}
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 30px;
+}
+
+#about-list i {
+  color: #00027c;
+  margin-right: 15px;
+}
+
+#services{
+  background-color: #F9F9F9;
+  margin-top:0px;
+
+}
+
+.service-title {
+  color: #444;
+  margin-top: 70px;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+
+}
+.service-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+  transition: .5s;
+}
+
+.service-box i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.service-box h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+  color: #00027c;
+}
+#Time{
+  margin-top:10px;
+}
+
+.time-title {
+  color: #444;
+  margin-top: 70px;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+.time-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+
+.card-body {
+  text-align: center;
+}
+

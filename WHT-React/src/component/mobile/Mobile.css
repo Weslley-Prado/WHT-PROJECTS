@@ -1,0 +1,28 @@
+.paragrafo{
+    justify-content: flex-start;
+    text-align:left;
+    font-size: 15px;
+    align-items: center;
+}
+
+.titulo {
+    padding-top: 20px;
+}
+
+.buttonParagrafo {
+    text-align: left;
+}
+
+.contactTitulo{
+    padding-bottom: 20px;
+}
+
+.paragrafoTime{
+  
+        justify-content: flex-start;
+        text-align:left;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+
