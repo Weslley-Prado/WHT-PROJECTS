@@ -29,6 +29,7 @@ import Escadas04 from '../../../img/imgdwgranitos/escada04.png';
 import Escadas05 from '../../../img/imgdwgranitos/escada05.png';
 import Escadas06 from '../../../img/imgdwgranitos/escada06.png';
 import Menu from '../../templates/Menu';
+import Footer from '../../templates/Footer';
 
 
 
@@ -135,6 +136,7 @@ export default function Album() {
         </Card>
         </main> 
     </ThemeProvider>
+    <Footer />
     </div>
   );
 }

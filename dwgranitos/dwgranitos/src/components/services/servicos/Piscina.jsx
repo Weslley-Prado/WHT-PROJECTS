@@ -29,6 +29,7 @@ import Piscina04 from '../../../img/imgdwgranitos/piscina04.png';
 import Piscina05 from '../../../img/imgdwgranitos/piscina05.png';
 import Piscina06 from '../../../img/imgdwgranitos/piscina06.png';
 import Menu from '../../templates/Menu';
+import Footer from '../../templates/Footer';
 
 
 
@@ -138,6 +139,7 @@ export default function Album() {
 
 
     </ThemeProvider>
+    <Footer />
     </div>
   );
 }

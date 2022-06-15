@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import Empresa from '../img/empresa.jpg'
 import Menu from './templates/Menu';
+import Footer from './templates/Footer';
 
 
 const About = () => 
@@ -28,6 +29,7 @@ const About = () =>
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
       
 export default About;

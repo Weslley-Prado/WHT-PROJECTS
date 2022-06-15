@@ -29,6 +29,7 @@ import Piso04 from '../../../img/imgdwgranitos/piso04.png';
 import Piso05 from '../../../img/imgdwgranitos/piso05.png';
 import Piso06 from '../../../img/imgdwgranitos/piso06.png';
 import Menu from '../../templates/Menu';
+import Footer from '../../templates/Footer';
 
 
 
@@ -140,6 +141,7 @@ export default function Album() {
        
 
     </ThemeProvider>
+    <Footer />
     </div>    
 
   );

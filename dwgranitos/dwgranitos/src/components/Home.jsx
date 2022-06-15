@@ -11,6 +11,7 @@ import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Form from './Form';
 import Menu from './templates/Menu';
+import Footer from './templates/Footer';
 
 const Home = () => {
         return (
@@ -27,6 +28,7 @@ const Home = () => {
                 </div>
                 <h2 className="order">FAÇA SEU ORÇAMENTO</h2>
                 <Form /> 
+                <Footer />
                 </section>
         )
 }

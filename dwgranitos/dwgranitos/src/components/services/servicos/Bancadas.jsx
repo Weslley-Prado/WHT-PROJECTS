@@ -29,6 +29,7 @@ import Bancada04 from '../../../img/imgdwgranitos/bancada04.png';
 import Bancada05 from '../../../img/imgdwgranitos/bancada05.png';
 import Bancada06 from '../../../img/imgdwgranitos/bancada06.png';
 import Menu from '../../templates/Menu';
+import Footer from '../../templates/Footer';
 
 
 
@@ -135,6 +136,7 @@ export default function Album() {
         </Card>
         </main>  
     </ThemeProvider>
+    <Footer />
     </div>
   );
 }

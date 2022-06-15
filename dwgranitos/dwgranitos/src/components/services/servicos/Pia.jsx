@@ -29,6 +29,7 @@ import Pia04 from '../../../img/imgdwgranitos/pia04.png';
 import Pia05 from '../../../img/imgdwgranitos/pia05.png';
 import Pia06 from '../../../img/imgdwgranitos/pia06.png';
 import Menu from '../../templates/Menu';
+import Footer from '../../templates/Footer';
 
 
 
@@ -135,6 +136,7 @@ export default function Album() {
         </Card>
         </main>
     </ThemeProvider>
+    <Footer />
     </div>
   );
 }
