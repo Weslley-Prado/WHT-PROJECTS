@@ -1,0 +1,72 @@
+
+   #about {
+    background-color: #f2f2f2;
+    margin-top:0px;
+    padding-top: 0px;
+  
+  }
+    
+    #about-area {
+      background-color: #F9F9F9;
+      margin-top:0px;
+    }
+    #Service{
+      background-color: #F9F9F9;
+      margin-top:0px;
+    }
+    
+    .main-title {
+      color: #444;
+      margin-top: 180px;
+      margin: 0 375px 45px 0;
+      font-size: 40px;
+      text-align: center;
+      padding-top: 110px;
+    }
+    .main-title::after {
+      content: "";
+      border-top: 2px solid #333;
+      width: 15%;
+      position: absolute;
+      top: 60px;
+      left: 42.5%;
+    }
+    .about-title {
+      font-size: 17px;
+      color: #444;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    #about-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    
+    #about-list li {
+      line-height: 30px;
+    }
+    
+    #about-list i {
+      color: #00027c;
+      margin-right: 15px;
+    }
+    
+    .paragrafo{
+        justify-content: flex-start;
+        text-align:left;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    .img-fluid{
+        height: 500px;
+        width: 750px;
+
+    }
+  .img-fluid2 {
+    margin-top: 15px;
+    width: 750px;
+    height: 200px;
+
+  }

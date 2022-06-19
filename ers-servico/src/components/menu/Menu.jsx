@@ -49,28 +49,28 @@ export default function Navbar() {
            <i className="fa fa-home"></i> Home </Link>
            </li>
            <li>
-           <Link to="/about" className="menuStyle">    
+           <Link to="/quem-somos" className="menuStyle">    
             <i className="fa fa-building"></i> Quem somos
            </Link>
            </li>
            <li>
-           <Link to="/services" className="menuStyle">
+           <Link to="/servicos" className="menuStyle">
             <i className="fa fa-briefcase" ></i> Serviços
           </Link>           
           </li>
           <li>
-          <Link to="/Time" className="menuStyle">
+          <Link to="/trabalhe-conosco" className="menuStyle">
           <i class="fa fa-users" aria-hidden="true"></i> Trabalhe conosco
             </Link>
           </li>
           <li>
-          <Link to="/contact" className="menuStyle">
+          <Link to="/orcamento" className="menuStyle">
           <i className="fa fa-handshake-o" ></i>  Orçamento
             </Link>        
                       
           </li>
           <li>
-          <Link to="/contact" className="menuStyle">
+          <Link to="/contato" className="menuStyle">
            <i className="fa fa-envelope" ></i> Contato
             </Link>           
                       
