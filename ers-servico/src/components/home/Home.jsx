@@ -21,7 +21,7 @@ const Home = () => {
                           <img src={Banner3} className="sliderimg" alt="" />
                   </AliceCarousel>
           </div>
-          <h2 className="order">FAÇA SEU ORÇAMENTO</h2>
+          <h2 className="order"></h2>
         
           </section>
   )
