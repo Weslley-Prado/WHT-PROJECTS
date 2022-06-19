@@ -1,0 +1,50 @@
+.sliderimg{
+  width: 100%;
+  height: 640px;
+  padding: 0;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+
+}
+
+.slide{
+  width: 100%;
+}
+
+.alice-carousel__prev-btn
+.alice-carousel__prev-btn-wrapper
+.alice-carousel__prev-btn-item {
+display: none;
+}
+.alice-carousel__next-btn
+.alice-carousel__next-btn-wrapper
+.alice-carousel__next-btn-item {
+display: none;
+}
+
+
+.alice-carousel__dots {
+padding: 0px;
+margin: 0px;
+position: absolute;
+width: 100%;
+text-align: center;
+bottom: 75px;
+}
+
+.order{
+   text-align: center;
+   font-weight: bold;
+   font-size:xx-large;
+}
+
+.paragrafo{
+height: 142px;
+width: 293;
+padding: 0 0 0 70px;
+font-size: 12px;
+line-height: 20.4px;
+word-spacing: 0px;
+background-position: 0px;
+}
