@@ -1,7 +1,7 @@
 import './Contact.css'
 import React, { Component } from 'react'
 import axios from 'axios';
-
+import Contato from '../../assests/img/contato.jpg'
 const API_PATH = 'https://www.westhightechnology.com.br/php/index.php';
 
 
@@ -41,6 +41,8 @@ export default class Contact extends Component {
     render() {
         return (
             <sectio className="Formulario">
+                            <img className="img-orcamento" src={Contato} alt="orcamento"/> 
+
             <div className="Form">
                
                 <h3 className='contactTitulo'> Deixe sua mensagem aqui</h3>
