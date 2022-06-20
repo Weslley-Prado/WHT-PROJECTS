@@ -4,6 +4,7 @@ import Contact from "./components/contact/Contact";
 import Home from "./components/home/Home";
 import QuemSomos from "./components/quem-somos/Quem-somos";
 import Orcamento from "./components/orcamento/Orcamento";
+import TrabalheConosco from "./components/trabalhe-conosco/Trabalhe-conosco";
 
 
 
@@ -15,6 +16,7 @@ export default props => (
         <Route path='/' element={<Home />}/>
         <Route path='/quem-somos' element={<QuemSomos />}/> 
         <Route path='/orcamento' element={<Orcamento />}/>      
+        <Route path='/trabalhe-conosco' element={<TrabalheConosco />}/>      
 
         <Route path='/contato' element={<Contact />}/>      
      
