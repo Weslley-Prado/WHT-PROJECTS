@@ -6741,7 +6741,7 @@
   "resolved" "https://registry.npmjs.org/mdb-ui-kit/-/mdb-ui-kit-4.3.0.tgz"
   "version" "4.3.0"
 
-"mdbreact@^4.6.1":
+"mdbreact@^4.27.0":
   "integrity" "sha512-oKmHqZ058Abjni5lnap4Q6iMSw7KQk5EvG5e1bFXZ5wdhdZRT96/DNU7PCFnCIUfO3OdGo/cTsMg0osfadrHng=="
   "resolved" "https://registry.npmjs.org/mdbreact/-/mdbreact-4.27.0.tgz"
   "version" "4.27.0"

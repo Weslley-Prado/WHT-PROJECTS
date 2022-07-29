@@ -1,7 +1,7 @@
 import React from 'react';
 
-import image1 from '../../src/img/banner1.jpg';
-import image2 from '../../src/img/banner2.jpg';
+import image1 from '../../src/img/banner6.jpg';
+import image2 from '../../src/img/banner7.jpg';
 import image3 from '../../src/img/banner5.jpg';
 import './Home.css'
 

@@ -1,17 +1,17 @@
 .funcionamento {
-    font-weight: 400;
-    font-size: 12px;
-    margin-right: 430px;
+    font-weight: 400!important;
+    font-size: 12px !important;
+    margin-right: 430px !important;
     width: 240px;
     }
     
     .funcionamento1 {
-        font-weight: 400;
-        font-size: 12px;
-        margin-right: 530px;
-        width: 240px;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        margin-right: 530px !important;
+        width: 240px !important;
         }
     
     .coluna {
-        width: 25%;
+        width: 25% !important;
     }
