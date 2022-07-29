@@ -2,7 +2,7 @@ import './Contact.css'
 import React, { Component } from 'react'
 import axios from 'axios';
 
-const API_PATH = 'https://vimarbe.com.br/php/index.php';
+const API_PATH = 'https://jujubinhababykids.com.br/php/index.php';
 
 
 export default class Contact extends Component {

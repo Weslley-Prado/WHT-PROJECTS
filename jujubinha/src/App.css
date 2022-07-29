@@ -8,8 +8,11 @@ body {
   width: 100%;
 	padding-right:15px;
 	padding-left:15px;
-	margin-right:auto;
-  
+
+}
+div.carousel.slide.carousel-fade{
+  padding-top: 0px;
+position: relative;
 }
 img {
   max-width: 100%;
@@ -235,7 +238,7 @@ polyline{
 .Bomba{
   width: 250px;
   height: 250px;
-
+margin-top: 40px;
 }
 
 .ListaPrincipal{
@@ -243,7 +246,10 @@ polyline{
 }
 
 .Card{
-  margin: 0 auto;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 @media (max-width:767px) {
   .Bomba{

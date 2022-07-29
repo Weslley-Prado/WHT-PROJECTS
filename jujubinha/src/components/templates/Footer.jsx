@@ -1,51 +1,58 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import './Footer.css'
+import Logo from '../../img/logo.png'
+
 
 const Footer = () => {
   return (
-    <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Horário de funcionamento</h5>
-            <p className="funcionamento">  Segunda à Sexta - 08:00 às 18:00 </p> 
-            <p className="funcionamento">  Sábado - 08:00 às 13:00 </p> 
+    
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><img src={Logo} /> </h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Inicio</h5>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/About">Quem somos</a></li>
+                        <li><a href="/Contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Produtos</h5>
+                    <ul>
+                        <li><a href="/Produtos">Moda Infantil Feminina</a></li>
+                        <li><a href="/Produtos">Moda Infantil Masculina</a></li>
+                       
 
-
-          </MDBCol>
-          <MDBCol md="6" > 
-            <h5 className="title">Contato</h5>
-            <p className="funcionamento1">TELEFONE FIXO  (11) 2605.2088
-            WHATSAPP ( 11 ) 95555.1110 </p> 
-
-          </MDBCol>
-          
-         
-          <MDBCol md="2">
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Home</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Empresa</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Produtos</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Contato</a>
-              </li>
-            </ul>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-      <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://westhightechnology.com.br/"> WHT - West High Technology</a>
-        </MDBContainer>
-      </div>
-    </MDBFooter>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Suporte</h5>
+                    <ul>
+                        <li><a href="/Contact">Dúvidas</a></li>
+                        <li><a href="/Contact">Telefones</a></li>
+                        <li><a href="/Contact">E-mail</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/vimarbecombr-104580415612613" class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/vimarbe.com.br/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="/Contact">
+                        <button type="button" class="btn btn-default">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2022 Copyright: <a href="https://westhightechnology.com.br/" target="_blank">  WHT - West High Technology</a></p>
+        </div>
+    </footer>
   );
 }
 

@@ -4,22 +4,12 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
-// import Button from '@mui/material/Button';
-// import CameraIcon from '@mui/icons-material/PhotoCamera';
-// import Card from '@mui/material/Card';
-// import CardActions from '@mui/material/CardActions';
-// import CardContent from '@mui/material/CardContent';
-// import CardMedia from '@mui/material/CardMedia';
 import CssBaseline from '@mui/material/CssBaseline';
-// import Grid from '@mui/material/Grid';
-// import Stack from '@mui/material/Stack';
-// import Box from '@mui/material/Box';
+
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-// import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-// import Banner from "../img/banner1.jpg"
 
 import Bomba from "../img/photo1.jpg"
 import Filtro1 from "../img/photo2.jpg"
@@ -27,6 +17,12 @@ import Filtro2 from "../img/photo3.jpg"
 import Filtro4 from "../img/photo4.jpg"
 import Filtro5 from "../img/photo5.jpg"
 import AspiradorFundo from "../img/photo6.jpg"
+import M1 from "../img/M1.jpg"
+import M2 from "../img/M2.jpg"
+import M3 from "../img/M3.jpg"
+import M4 from "../img/M4.jpg"
+import M5 from "../img/M5.jpg"
+import M6 from "../img/M6.jpg"
 
 
 
@@ -136,18 +132,9 @@ Moda Infantil Feminina         </Typography>
       </AppBar>
 
       <section className="ListaPrincipal"> 
-      <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Bomba} />
-          <Card.Body>
-            <Card.Title></Card.Title>
-            <Card.Text>
-
-            </Card.Text>
-            {/*<Button variant="primary">Go somewhere</Button>*/}
-          </Card.Body>
-        </Card>           
+              
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Filtro1} />
+          <Card.Img className="Bomba" variant="top" src={M1} />
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
@@ -157,7 +144,7 @@ Moda Infantil Feminina         </Typography>
         </Card>
 
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Filtro2} />
+          <Card.Img className="Bomba" variant="top" src={M2} />
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
@@ -168,7 +155,7 @@ Moda Infantil Feminina         </Typography>
         </Card>
 
         <Card  className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Filtro4} />
+          <Card.Img className="Bomba" variant="top" src={M4} />
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
@@ -180,7 +167,7 @@ Moda Infantil Feminina         </Typography>
         </Card>
         
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={Filtro5} />
+          <Card.Img className="Bomba" variant="top" src={M5} />
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
@@ -189,7 +176,7 @@ Moda Infantil Feminina         </Typography>
             </Card.Body>
         </Card>       
         <Card className="Card" style={{ width: '18rem' }}>
-          <Card.Img className="Bomba" variant="top" src={AspiradorFundo} />
+          <Card.Img className="Bomba" variant="top" src={M6} />
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
